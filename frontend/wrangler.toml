@@ -1,0 +1,8 @@
+name = "scam-scanner"
+compatibility_date = "2024-02-26"
+pages_build_output_dir = "dist"
+
+# KV Namespace binding
+[[kv_namespaces]]
+binding = "SCAM_SCANNER_KV"
+id = "44321a0acb4e4eb78f52d614c19a2547"

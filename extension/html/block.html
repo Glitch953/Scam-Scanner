@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security Warning - Scam Scanner</title>
+  <link rel="stylesheet" href="../css/block.css">
+</head>
+<body>
+  
+  <div class="warning-container">
+    <div class="icon-wrapper">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="alert-icon"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>
+    </div>
+    
+    <h1>Deceptive Site Ahead</h1>
+    
+    <p id="message" class="description">
+      Attackers on this site may trick you into doing something dangerous like installing software or revealing your personal information (for example, passwords, phone numbers, or credit cards).
+    </p>
+    
+    <div class="details-box">
+      <div class="detail-row">
+        <span class="detail-label">Threat Type:</span>
+        <span id="threatType" class="threat-badge">Unknown</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Attempted URL:</span>
+        <span id="originalUrl" class="url-text"></span>
+      </div>
+    </div>
+    
+    <div class="actions">
+      <button id="goBack" class="btn primary">Back to Safety</button>
+      <button id="proceed" class="btn text-btn">Proceed anyway (Unsafe)</button>
+    </div>
+  </div>
+
+  <script src="../js/block.js"></script>
+</body>
+</html>
